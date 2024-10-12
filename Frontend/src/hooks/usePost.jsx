@@ -2,7 +2,7 @@ import axios from "axios";
 
 export default async function usePost(data) {
   const response = await axios.post(
-    "http://localhost:7890/api/auth/register",
+    "https://project-management-4y6b.onrender.com/api/auth/register",
     data
   );
   return response;
